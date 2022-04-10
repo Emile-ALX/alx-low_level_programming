@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *   * main - Prints the numbers from 00 to 99
- *     *
- *       * Return: Always (Success)
- *         */
+ * main - Prints the numbers from 00 to 99
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
 	int c, i;
