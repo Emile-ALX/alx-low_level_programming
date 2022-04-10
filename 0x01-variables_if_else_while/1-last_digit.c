@@ -3,29 +3,21 @@
 #include <stdio.h>
 
 /**
- * main - Prints a text according number
- * 
+ * main - Entry points
+ *
  * Return: Always (Success)
  */
 int main(void)
 {
-	int n, lastd;
+int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	lastd = n % 10;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 
-	if (lastd > 5)
-	{
-	printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
-	}
-	else if (lastd == 0)
-	{
-	printf("Last digit of %d is %d and is 0\n", n, lastd);
-	}
-	else if (lastd < 6 && lastd != 0)
-	{
-	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
-	}
-       	return (0);
+printf("Last digit of %d is %d %s\n", n, n % 10,
+((n % 10) == 0) ? "and is 0"
+: (((n % 10) > 5) ? "and is greater than 5"
+: "and is less than 6 and not 0"));
+
+return (0);
 }
