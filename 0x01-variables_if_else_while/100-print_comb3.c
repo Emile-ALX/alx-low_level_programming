@@ -5,29 +5,28 @@
  *
  * Return: Always (Success)
  */
-
 int main(void)
 {
-	int c, i;
-	
-	c = i = '0';
-	
-	for (c = '0'; c <= '9'; c++)
-	{
-		for (i = '0'; i <= '9'; i++)
-		{
-			putchar(c);
-			putchar(i);
+		int c, i;
 
-			if ((c != '9') || (c == '9' && i != '9'))
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
-	}
+			c = i = '0';
 
-	putchar('\n');
+				for (c = '0'; c <= '9'; c++)
+						{
+									for (i = '0'; i <= '9'; i++)
+												{
+																putchar(c);
+																			putchar(i);
 
-	return (0);
+																						if ((c != '9') || (c == '9' && i != '9'))
+																										{
+																															putchar(',');
+																																			putchar(' ');
+																																						}
+																								}
+										}
+
+					putchar('\n');
+
+						return (0);
 }
