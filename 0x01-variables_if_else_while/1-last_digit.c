@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
+
 /**
  * main - Prints a text according number
  * 
@@ -30,4 +31,3 @@ int main(void)
 
 	return (0);
 }
-
