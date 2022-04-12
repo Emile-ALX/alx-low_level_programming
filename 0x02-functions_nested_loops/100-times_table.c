@@ -28,7 +28,7 @@ _putchar((prod / 100) + '0');
 _putchar(((prod / 10)) % 10 + '0');
 }
 
-else if (prod <= 99 && pro >= 10)
+else if (prod <= 99 && prod >= 10)
 {
 _putchar((prod / 10 ) + '0');
 }
