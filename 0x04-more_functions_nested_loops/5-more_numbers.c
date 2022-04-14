@@ -1,4 +1,4 @@
-#include "main.h"
+#include "more_numbers.h"
 
 /**
  * more_numbers -  checks for checks for a digit (0 through 9).
