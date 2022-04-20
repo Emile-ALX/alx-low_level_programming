@@ -4,7 +4,7 @@
  * @s: input
  * Return strlen
  */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int count = 1, sum = 0;
 	char length = s[0];
