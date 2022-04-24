@@ -27,7 +27,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		temp = stp2;
 	}
-	while (comp < = temp)
+	while (comp <= temp)
 	{
 	if (s1[comp] == s2[comp])
 	{
