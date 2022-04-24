@@ -9,37 +9,39 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int stp1 = 0, stp2 = 0, temp, comp = 0, newVal = 0;
+	int a = 0, b = 0, c = 0, r = 0, lim;
 
-	while (s1[stp1])
+	while (s1[a])
 	{
-		stp1++;
+		a++;
 	}
-	while (s2[stp2])
+
+	while (s2[b])
 	{
-		stp2++;
+	b++;
 	}
-	if (stp1 <= stp2)
+
+	if (a <= b)
 	{
-		temp = stp1;
-	}
-	else
-	{
-		temp = stp2;
-	}
-	while (comp <= temp)
-	{
-	if (s1[comp] == s2[comp])
-	{
-		comp++;
-		continue;
+	lim = a;
 	}
 	else
 	{
-		newVal = s1[comp] - s2[comp];
-		break;
+	lim = b;
 	}
-	comp++
+
+	while (c <= lim)
+	{
+	if (s1[c] == s2[c])
+	{
+	c++;
+	continue;
 	}
-	return (newVal);
-}
+	else
+	{
+	r = s1[c] - s2[c];
+	break;
+	}
+	c++;
+	}
+}	return (r);
