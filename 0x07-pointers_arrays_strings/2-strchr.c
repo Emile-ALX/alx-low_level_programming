@@ -22,5 +22,5 @@ if (c == s[s2])
 	return (s);
 }
 }
-	return ("\n");
+	return ('\0');
 }
