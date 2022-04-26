@@ -10,7 +10,8 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int index;
 
-	while (index < n)
+	index = 0;
+	whil  (index < n)
 	{
 		dest[index] = src[index];
 		index++;
