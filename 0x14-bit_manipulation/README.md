@@ -1,1 +1,1 @@
-In this repo we are going to work on bit-manipulation in c programming
+Hello the we are going to dive into bit manipulation in c programming
