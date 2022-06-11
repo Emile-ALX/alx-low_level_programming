@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "alx.h"
+#include "main.h"
 
 /**
  * flip_bits - Write a function that returns the number of bits you would
